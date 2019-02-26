@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Enter Time into TimeSheet" | mail 2565035776@vtext.com
+echo "Enter Time into TimeSheet" | mutt mycell
 
 
