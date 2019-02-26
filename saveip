@@ -1,0 +1,6 @@
+#!/bin/bash
+
+FILE=/home/james/Dropbox/ip_dat/$(date -u +%Y_%m_%d)
+IP=$(curl -s http://ifconfig.me)
+
+echo $IP > $FILE
