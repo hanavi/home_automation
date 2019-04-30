@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Enter Time into TimeSheet" | MUTT_CONFIG=fetchmail /usr/bin/mutt mycell
+echo "Enter Time into TimeSheet" | MUTT_CONFIG=fetchmail /usr/bin/neomutt mycell
 
 

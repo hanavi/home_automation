@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Feed and water the dogs" | MUTT_CONFIG=fetchmail /usr/bin/neomutt zoecell
+
+
+
+
+
